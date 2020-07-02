@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sneaker Database</title>
-    <link rel="icon" type="image/png" href="database-solid.svg">
+    <link rel="icon" type="image/png" href="images/database-solid.svg">
     <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-danger justify-content-center">
@@ -111,7 +111,7 @@
                         response.results.forEach(function(element) {
                             $('tbody').append(`
                                 <tr>
-                                    <th scope="row"><img src="${element.media.thumbUrl}" onerror="this.onerror=null;this.src='fallback.svg';" width="280"></th>
+                                    <th scope="row"><img src="${element.media.thumbUrl}" onerror="this.onerror=null;this.src='images/fallback.svg';" width="280"></th>
                                     <th scope="col">${element.title}</th>
                                     <th scope="col">${element.brand}</th>
                                     <th scope="col">${element.styleId}</th>
