@@ -128,8 +128,7 @@
         });
     </script>
     <footer>
-        <p>Created by Gyliboomin & <a href="https://s-zegers.com/" target="_blank">Kyzegs</a></p>
-        <p><a href="https://instagram.com/gyliboomin"class="stretched-link py-3">Instagram</a> & <a href="#" class="stretched-link py-3">Github</a></p>
+        <p>Created by <a href="https://github.com/gyliboomin/sneaker-api" target="_blank">Gyliboomin</a> & <a href="https://s-zegers.com/" target="_blank">Kyzegs</a></p>
     </footer>
 </body>
 </html>
